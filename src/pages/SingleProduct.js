@@ -131,7 +131,7 @@ useEffect(() => {
 
             <div className="d-flex-c text-center">
           <h4 className='product_choose' >تاكيد الاختيار</h4>
-          <input type="radio"    className='checkbox_product' onChange={(e) => handleChange(e , option_price , option)} />
+          <input type="checkbox"    className='checkbox_product' onChange={(e) => handleChange(e , option_price , option)} />
           </div>
 
             <h6 className="product_choose"> {option} - <span className="span_darkblue">{option_price} ريال</span>  </h6>
