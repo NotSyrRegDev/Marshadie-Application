@@ -4,14 +4,8 @@ import './App.css';
 import Footer from './components/Footer';
 
 import { AppProvider } from './context/AppContext';
-import {
-  BrowserRouter,
-  Route,
-
-  Routes,
-
-} from "react-router-dom";
-
+import {  BrowserRouter,  Route,   Routes, } from "react-router-dom";
+ 
 import SingleProduct from './pages/SingleProduct';
 import { Home } from './pages/Home';
 import Loading from './components/Loading';
